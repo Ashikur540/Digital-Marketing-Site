@@ -1,0 +1,98 @@
+                            * {
+                                margin: 0;
+                                padding: 0;
+                                box-sizing: border-box;
+                            }
+                            /* code for hero section */
+                            
+                            header {
+                                height: 6.5vw;
+                                width: 100vw;
+                                background-color: #caf0f8;
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: space-around;
+                                align-items: center;
+                                box-shadow: 0px 5px 10px rgb(197, 187, 187);
+                            }
+                            
+                            ul {
+                                display: flex;
+                                flex-wrap: wrap;
+                                list-style-type: none;
+                                align-items: center;
+                            }
+                            
+                            ul li a {
+                                display: inline-block;
+                                padding-left: 20px;
+                                padding-right: 20px;
+                                text-decoration: none;
+                                color: #1d3557;
+                                font-weight: bold;
+                            }
+                            
+                            ul li a::after {
+                                content: '';
+                                display: block;
+                                height: 4px;
+                                width: 0;
+                                transition: all .5s;
+                                background-color: #1d3557;
+                            }
+                            
+                            ul li a:hover::after {
+                                width: 100%;
+                            }
+                            
+                            .hero {
+                                display: flex;
+                                flex-wrap: wrap;
+                                border: 12 px solid #1d3557;
+                                height: calc(100vh -68.313px);
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            
+                            .hero_img {
+                                width: 500px;
+                            }
+                            
+                            .left_side {
+                                width: 45%;
+                            }
+                            
+                            .hero p {
+                                font-size: 15px;
+                                margin: 20px 0px;
+                            }
+                            
+                            .lrn_btn {
+                                padding: 15px 30px;
+                                color: white;
+                                background-color: #e63946;
+                                border: none;
+                                border-radius: 15px;
+                            }
+                            
+                            .sign_up_btn {
+                                padding: 5px 10px;
+                                color: white;
+                                font-family: 'Montserrat', sans-serif;
+                                background-color: #e63946;
+                                border: none;
+                                border-radius: 15px;
+                            }
+                            
+                            .hdr_part_1 {
+                                font-family: 'Montserrat', sans-serif;
+                                /* font-weight: bold; */
+                                color: #457b9d;
+                            }
+                            
+                            .hdr_part_2 {
+                                font-family: 'Montserrat', sans-serif;
+                                color: #1d3557;
+                                letter-spacing: 2px;
+                            }
+                            /* code for services section */
